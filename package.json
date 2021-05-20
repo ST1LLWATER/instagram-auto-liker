@@ -1,0 +1,14 @@
+{
+  "name": "web_automation",
+  "version": "1.0.0",
+  "description": "web automation using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  }
+}
