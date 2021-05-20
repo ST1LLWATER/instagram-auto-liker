@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
-const C = require("./creds");
 const fs = require("fs");
+const C = require("./creds");
 const USERNAME_SELECTOR = "#email";
 const PASSWORD_SELECTOR = "#pass";
 
@@ -13,9 +13,9 @@ const PASSWORD_SELECTOR = "#pass";
     return "#" + document.querySelector("button").getAttribute("id");
   });
   await page.click(USERNAME_SELECTOR);
-  await page.keyboard.type(C.username);
+  await page.keyboard.type(C.username); //Username From creds.js
   await page.click(PASSWORD_SELECTOR);
-  await page.keyboard.type(C.password);
+  await page.keyboard.type(C.password); //Password From creds.js
   await page.click(login);
   await page.waitForNavigation();
   await page.screenshot({ path: "./media/ss.png" });
