@@ -7,6 +7,8 @@ Add the link of the page to be liked on like 3 on variable url.
 Change headless property to false on line 8 if you want to see the script running.
 Posts liked will be displayed in the console at the end.
 One more thing don't run the script on more then one account per hour due to instagram automation restrictions.
+This script is not yet optimized for accounts with 2FA.
+More updates later.
 My Discord Id: Stillwater;#4723
 
 Enjoy; </>
