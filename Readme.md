@@ -1,3 +1,6 @@
+npm i puppeteer
+To install the dependency
+
 A Script To Like All The Posts On The Instagram Account You Provide Made In puppeteer.js
 Throw in your credentials in creds.js file.
 Add the link of the page to be liked on like 3 on variable url.
