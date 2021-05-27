@@ -38,6 +38,7 @@ const url = "YOUR URL GOES HERE"; //Enter The Page To Be Liked Here
       new Promise((resolve) => setTimeout(resolve, duration));
 
     let totalPosts = document.querySelector(".g47SY").innerHTML;
+    totalPosts = totalPosts.replace(/,/g, "");
     let counter = parseInt(totalPosts);
     document.querySelector("._9AhH0").click();
     for (let i = 0; i < counter; i++) {
